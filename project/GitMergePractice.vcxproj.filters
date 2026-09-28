@@ -19,6 +19,12 @@
     <Filter Include="externals\imgui">
       <UniqueIdentifier>{1c4bc103-d475-410a-bb5b-7babd2ffa289}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Test">
+      <UniqueIdentifier>{a1b2c3d4-0001-4000-9000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Test">
+      <UniqueIdentifier>{a1b2c3d4-0002-4000-9000-000000000002}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,7 +51,7 @@
     <ClCompile Include="externals\imgui\imgui_widgets.cpp">
       <Filter>externals\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Test\TestFunction.cpp">
+    <ClCompile Include="..\Test\TestFunction.cpp">
       <Filter>ソース ファイル\Test</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,7 +59,7 @@
     <FxCompile Include="VertexShader.hlsl" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Test\TestFunction.h">
+    <ClInclude Include="..\Test\TestFunction.h">
       <Filter>ヘッダー ファイル\Test</Filter>
     </ClInclude>
   </ItemGroup>

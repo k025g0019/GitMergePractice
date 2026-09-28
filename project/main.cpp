@@ -1,7 +1,6 @@
-#include "TestFunction.h"
+#include "../Test/TestFunction.h"
 
 int main() {
-
 	TestFunction();
 
 	return 0;
